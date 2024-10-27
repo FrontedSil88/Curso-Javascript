@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Mi primera página con Javascript</title>
+
+    <!-- ! --Segunda forma de agregar de Javascript-- -->
+   
+   <script defer>
+        alert('Se ejecuta desde el head');
+
+    </script>
+
+<!-- ! --Tercera forma: Etiquetas script MEJOR- archivo externo-- -->
+
+<script defer src="./holaMundo.js"> // defer- hasta que cargo todo el codigo HTML
+//src: Cual es la fuente del codigo que se quiere cargar
+</script>
+
+
+</head>
+<body>
+    <h1>Hola Mundo!</h1>
+
+    
+
+    <!-- ! --Primera forma de agregar Javascript-- -->
+    <script>
+
+        //Notas importantes:
+        //Javascript es sensible a mayusculas y minisculas 
+        //Respectar a la sintaxis de tipo camel case. getElementById
+        //Punto y coma al finas de cada sentencia
+       // Comentarios de tipo linea
+       /*Comentarios de varias lineas(tipo bloque)*/
+
+       //El codigo comentado no se ejecuta
+       //alert(Este codigo no se ejecuta);
+    
+        /*Etiqueta script*/
+      document.write('<h2>Hola Mundo!</h2>');  //Siempre lleva Javascript;//
+      alert('Hola soy una alerta'); //Siempre puedes colocar una alerta//
+      console.log('Hola, desde la consola'); //Permite acceder a la consola de la web, permite escribir algo- sale: Presionando F12
+     //Antes de la etiqueta Body se coloca la etiqueta Sscript, porque asi le decimos al navegador carga todo al Body para luego a Script
+     </script>
+</body>
+        
+</html>
