@@ -5,7 +5,7 @@ console.log(location.href); // se usa más
 console.log(location.hostname);
 
 // pathname - Retorna la ruta y archivo de la pagina actual
-console.log(location.pathname);
+console.log(location.pathname); 
 
 // procotol - Retorna el protocolo utilizado
 console.log(location.protocol);
